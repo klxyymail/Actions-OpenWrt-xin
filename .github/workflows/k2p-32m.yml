@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config/K2P-32M/k2p-32m.config
+  CONFIG_FILE: config/K2P-32M/.config
   DIY_P1_SH: config/K2P-32M/diy-part1.sh
   DIY_P2_SH: config/K2P-32M/diy-k2p-32m.sh
   UPLOAD_BIN_DIR: false
