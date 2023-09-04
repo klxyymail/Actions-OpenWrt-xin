@@ -11,14 +11,13 @@
 #
 
 # Modify default IP 网关/登录地址
-sed -i 's/192.168.100.1/192.168.100.100/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.100.100/g' package/base-files/files/bin/config_generate
 
 # TTYD 自动登录
-# sed -i 's|/bin/login|/bin/login -f root|g' feeds/packages/utils/ttyd/files/ttyd.config
+sed -i 's|/bin/login|/bin/login -f root|g' feeds/packages/utils/ttyd/files/ttyd.config
 
 # 设置密码为空（安装固件时无需密码登陆）--设置后没有登录窗口
-# sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-setting
+#sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-setting
 
 # 更换主题
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
-
+#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
