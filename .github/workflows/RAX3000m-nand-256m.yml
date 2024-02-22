@@ -1,4 +1,4 @@
-name: Build_rax3000m_256m_new
+name: RAX3000M-256M
 
 on:
   repository_dispatch:
@@ -14,7 +14,7 @@ env:
   REPO_URL: https://github.com/zikura88/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
+  CONFIG_FILE: config/RAX3000M-256M/.config
   TZ: Asia/Shanghai
   DEVICE: rax3000m
   UPLOAD_OUTPUT: true
