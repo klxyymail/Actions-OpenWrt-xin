@@ -13,7 +13,7 @@ env:
   #REPO_URL: https://github.com/zikura88/immortalwrt-mt798x
   REPO_URL: https://github.com/klxyymail/Actions-OpenWrt-xin
   REPO_BRANCH: openwrt-21.02
-  FEEDS_CONF: feeds.conf.default
+  FEEDS_CONF: config/RAX3000M-256M/feeds.conf.default
   CONFIG_FILE: config/RAX3000M-256M/.config
   TZ: Asia/Shanghai
   DEVICE: rax3000m
