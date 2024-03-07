@@ -13,7 +13,7 @@
 # Modify default IP 修改默认登录IP地址
 sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
 
-#修改为32M版本
+#修改为256M版本
 sed -i 's/<0x580000 0x7200000>/<0x580000 0xea80000>/g' target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m.dts
 sed -i 's/116736k/240128k/g' target/linux/mediatek/image/mt7981.mk
 
