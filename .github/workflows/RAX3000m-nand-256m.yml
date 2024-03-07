@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: k2p-32m
+name: RAX3000m-nand-256m
 
 on:
   repository_dispatch:
