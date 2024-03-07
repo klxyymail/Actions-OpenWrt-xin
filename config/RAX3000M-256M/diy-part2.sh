@@ -21,7 +21,7 @@ sed -i 's/116736k/240128k/g' target/linux/mediatek/image/mt7981.mk
 # sed -i 's|/bin/login|/bin/login -f root|g' feeds/packages/utils/ttyd/files/ttyd.config
 
 # 修改主机名
-# sed -i 's/OpenWrt/K2P-32M/g' package/base-files/files/bin/config_generate
+sed -i 's/ImmortalWrt/RAX3000M/g' package/base-files/files/bin/config_generate
 
 # 设置密码为空（安装固件时无需密码登陆）--设置后没有登录窗口
 # sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-setting
